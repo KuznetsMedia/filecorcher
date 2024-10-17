@@ -5,3 +5,7 @@ import logging
 import datetime
 import os
 writelog = True
+
+path = "C:/Users/Антон/filecorcher/test"
+filename = "test.csv"
+csvf.sepcol(path, filename, [2, 3, 4], [0, 1], encoding="windows-1251")
